@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Public+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .navbar {
+    position: fixed;
+    background-color: rgb(78, 29, 29);
+    color: #e3e3e3;
+    box-shadow: 0 0 2px 2px rgb(123, 59, 59);
+    z-index: 999;
+    height: 12vh;
+}
+
+header .navbar-brand {
+    padding-left: 6rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    display: flex;
+    letter-spacing: 2.5px;
+    transition-duration: 0.5s;
+}
+
+header .navbar-brand:hover{
+    cursor: pointer;
+    color: rgb(182, 95, 110);
+}
+
+.navbar-collapse .navbar-nav {
+    margin-left: 60%;
+    font-size: 1rem;
+     font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.3s;
+}
+
+.navbar-nav :hover {
+    color: white;
+    border-top: none;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+.hero-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/image-2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.hero-page h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    text-align: center;
+    padding-top: 12rem;
+    font-size: 113px;
+    letter-spacing: 2.5px;
+    color: #e3e3e3;
+    transition: 0.5s;
+}
+
+h2:hover {
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+.hero-page p {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.btnm-link {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-left: 44%;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+    border-radius: 0.3rem;
+    color: white;
+    padding: 0.8rem 2rem;
+    transition-duration: 0.4s;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.btnm-link:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    transform: scale(1.05, 1.05);
+    font-size: 1rem;
+}
+
+.about {
+    text-align: center;
+    height: 100vh;
+}
+
+.about h1 {
+    padding-top: 4rem;
+    font-size: 3rem;
+    color: rgb(78, 29, 29);
+}
+
+.about p {
+    line-height: 1.7;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+}
+
+.package2 {
+    height: 120vh;
+    text-align: center;
+}
+
+.package2 h1 {
+    padding-top: 4rem;
+    font-size: 3rem;
+    color: rgb(78, 29, 29);
+}
+
+
+.comment {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    margin-left: 4rem;
+    border-radius: 13rem;
+    justify-content: space-evenly;
+
+}
+
+.comment-circle {
+    border: 3px solid rgb(78, 29, 29);
+    right: 0;
+    top: 2rem;
+    left: -5rem;
+    bottom: 0;
+    width: 110px;
+    height: 110px;
+    transform: translate3d(-50%, -50%, 0);
+    border-radius: 110%;
+    background-color: rgb(78, 29, 29);
+    ;
+    position: relative;
+    transform: translateX(10rem);
+    z-index: 1;
+}
+
+.comment-image {
+    background-image: url(./images/nkan.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.comment1 {
+    border: 1px solid #ffffff;
+    height: 70vh;
+    min-width: 25%;
+    box-shadow: 2px 2px 2px 2px grey;
+    background-color: white;
+}
+
+.comment1 p {
+    padding-top: 5rem;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: black;
+    font-style: italic;
+}
+
+.comment1 h4 {
+    padding-top: 4.5rem;
+    font-size: 1.5rem;
+    color: rgb(78, 29, 29);
+}
+
+.comment1 hr {
+    color: orangered;
+    margin-top: 1rem;
+    margin-left: 8.5rem;
+    margin-right: 8.5rem;
+    /* height: 0.3rem; */
+    background-color: orangered;
+}
+
+
+.contact {
+    height: 70vh;
+    background: rgb(78, 29, 29);
+    border-top-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+
+}
+.gop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+  }
+
+.gop p {
+    color: white;
+}
+
+ .top {
+    /* padding-left: 6rem; */
+    /* padding-top: 4rem; */
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2.2rem;
+    letter-spacing: 2.5px;
+    font-weight: 800;
+} 
+
+.top:hover{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2.2rem;
+    letter-spacing: 2.5px;
+    font-weight: 800;
+  }
+
+.daps{
+    color: whitesmoke;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.3s;
+}
+.link:hover{
+    cursor: pointer;
+    color: rgb(182, 95, 110);
+}
+
+.contact p {
+    line-height: 1.7;
+    font-size: 1.3rem;
+}
