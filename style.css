@@ -157,7 +157,7 @@ h2:hover {
     z-index: 1;
 }
 
-.d-block {
+.w-100 {
     background-image: url(./images/nkan.jpeg);
     background-size: cover;
     background-position: center;
