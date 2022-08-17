@@ -103,7 +103,7 @@ h2:hover {
 
 .about {
     text-align: center;
-    height: 100vh;
+    height: 120vh;
 }
 
 .about h1 {
@@ -140,7 +140,7 @@ h2:hover {
 
 }
 
-.w-100 {
+.comment-circle {
     border: 3px solid rgb(78, 29, 29);
     right: 0;
     top: 2rem;
@@ -157,7 +157,7 @@ h2:hover {
     z-index: 1;
 }
 
-.w-100 {
+.comment-image {
     background-image: url(./images/nkan.jpeg);
     background-size: cover;
     background-position: center;
@@ -198,7 +198,7 @@ h2:hover {
 
 
 .contact {
-    height: 70vh;
+    height: 60vh;
     background: rgb(78, 29, 29);
     border-top-right-radius: 3rem;
     border-top-left-radius: 3rem;
