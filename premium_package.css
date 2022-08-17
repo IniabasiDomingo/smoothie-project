@@ -5,57 +5,40 @@
     padding: 0;
     box-sizing: border-box;
 }
- h2{
-    font-family: 'Montserrat', sans-serif;
-}
-
-body{
-    background-color: whitesmoke;
-}
-
-.navbar {
+header .navbar {
     position: fixed;
-    width: 100%;
-    padding: 4px 0;
-    /* background: rgb(121, 121, 121); */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* box-shadow: 0 0 2px 2px #393737; */
+    /* background-color: rgb(78, 29, 29); */
+    /* color: #e3e3e3;
+    box-shadow: 0 0 2px 2px rgb(123, 59, 59); */
     z-index: 999;
+    height: 12vh;
 }
 
-.navbar .menu li {
-    list-style: none;
-    display: inline-block;
-    padding-right: 50px;
-    padding-top: 1.5rem;
-    color: grey;
-}
-
-
-.navbar .menu li a {
-    color: rgb(67, 67, 67);
+header .navbar-brand {
+    /* padding-left: 6rem; */
+    font-family: 'Montserrat', sans-serif;
+    /* color: rgb(255, 255, 255); */
     font-size: 1.5rem;
-    font-weight: 500;
-    padding-right: 25px;
-    text-decoration: none;
-    transition-duration: 0.3s;
+    display: flex;
+    letter-spacing: 2.5px;
+    transition-duration: 0.5s;
 }
 
+header .navbar-brand:hover{
+    cursor: pointer;
+    color: rgb(182, 95, 110);
+}
 
-.navbar .menu li a:hover{
+.navbar-nav {
+    margin-left: 20%;
+    font-size: 1rem;
+     font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2.5px;
+    transition-duration: 0.5s;
+}
+
+.navbar-nav :hover {
     border-top: none;
     border-bottom: 2px solid rgb(78, 29, 29);
     cursor: pointer;
-}
-
-
-.bookings h1 {
-    padding-left: 6rem;
-    padding-top: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(78, 29, 29);
-    font-size: 2rem;
-    letter-spacing: 2.5px;
 }
