@@ -157,7 +157,7 @@ h2:hover {
     z-index: 1;
 }
 
-.comment-image {
+.d-block {
     background-image: url(./images/nkan.jpeg);
     background-size: cover;
     background-position: center;
