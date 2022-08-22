@@ -5,17 +5,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
 header .navbar {
     position: fixed;
-    /* background-color: rgb(78, 29, 29); */
-    /* color: #e3e3e3;
-    box-shadow: 0 0 2px 2px rgb(123, 59, 59); */
-    z-index: 999;
+    z-index: 1;
     height: 12vh;
 }
 
 header .navbar-brand {
-    /* padding-left: 6rem; */
+    padding-left: 6rem;
     font-family: 'Montserrat', sans-serif;
     /* color: rgb(255, 255, 255); */
     font-size: 1.5rem;
@@ -24,7 +24,7 @@ header .navbar-brand {
     transition-duration: 0.5s;
 }
 
-header .navbar-brand:hover{
+header .navbar-brand:hover {
     cursor: pointer;
     color: rgb(182, 95, 110);
 }
@@ -32,7 +32,7 @@ header .navbar-brand:hover{
 .navbar-nav {
     margin-left: 20%;
     font-size: 1rem;
-     font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 2.5px;
     transition-duration: 0.5s;
 }
@@ -42,7 +42,100 @@ header .navbar-brand:hover{
     border-bottom: 2px solid rgb(78, 29, 29);
     cursor: pointer;
 }
-.bi-cart-fill{
+
+.bi-cart-fill {
     padding-left: 15%;
     font-size: 2rem;
+}
+.options{
+    padding-top: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.options:hover{
+    
+}
+
+.options h5{
+    padding-top: 11.5rem;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    color: rgb(182, 95, 110);
+    
+}
+
+.options p{
+    /* padding-top: -1rem; */
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    color: rgb(122, 42, 55);
+}
+
+.orange_image {
+    background-image: url(./images/orange-juice-jar-with-oranges.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 30vh;
+    width: 30%;
+    border-radius: 1.5rem;
+    margin-bottom: 4rem;
+}
+.pawpaw_smoothie{
+    background-image: url(./images/glass-papaya-juice-put-white-marble-floor.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 30vh;
+    width: 30%;
+    border-radius: 1.5rem;
+}
+.avocado-bananna_smoothie{
+    background-image: url(./images/smoothie-with-avocado-banana.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 30vh;
+    width: 30%;
+    border-radius: 1.5rem;
+}
+.pineapple_smoothie{
+    background-image: url(./images/man-hand-takes-transparent-rustic-jar-with-tasty-healthly-freshly-made-yellow-smoothie-from-mango.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 30vh;
+    width: 30%;
+    border-radius: 1.5rem;
+}
+.strawberry_smoothie{
+    background-image: url(./images/two-rustic-jars-with-fresh-blended-smoothie-from-yogur-berries-ice-isolated-wooden-table-white-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 30vh;
+    width: 30%;
+    border-radius: 1.5rem;
+}
+.glass-berry_smoothie{
+    background-image: url(./images/pexels-josh-sorenson-990439.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 30vh;
+    width: 30%;
+    border-radius: 1.5rem;
 }
