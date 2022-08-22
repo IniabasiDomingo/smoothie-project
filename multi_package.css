@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+header .navbar {
+    position: fixed;
+    z-index: 1;
+    height: 12vh;
+}
+
+header .navbar-brand {
+    padding-left: 6rem;
+    font-family: 'Montserrat', sans-serif;
+    /* color: rgb(255, 255, 255); */
+    font-size: 1.5rem;
+    display: flex;
+    letter-spacing: 2.5px;
+    transition-duration: 0.5s;
+}
+
+header .navbar-brand:hover {
+    cursor: pointer;
+    color: rgb(182, 95, 110);
+}
+
+.navbar-nav {
+    margin-left: 20%;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2.5px;
+    transition-duration: 0.5s;
+}
+
+.navbar-nav :hover {
+    border-top: none;
+    border-bottom: 2px solid rgb(78, 29, 29);
+    cursor: pointer;
+}
+
+.bi-cart-fill {
+    padding-left: 15%;
+    font-size: 2rem;
+}
+.options{
+    padding-top: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.options h5{
+    padding-top: 11.5rem;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    color: rgb(182, 95, 110);
+    
+}
+
+.options p{
+    /* padding-top: -1rem; */
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    color: rgb(122, 42, 55);
+}
+
+.Healthy-Vegi_Smoothie {
+    background-image: url(./images/healthy-drink-vegetable-smoothie.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 30vh;
+    width: 30%;
+    border-radius: 1.5rem;
+    margin-bottom: 4rem;
+}
+.Chocolate-X-Bananna_Smoothie{
+    background-image: url(./images/chocolate-smoothie-with-choco-syrup-branch-bananas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 30vh;
+    width: 30%;
+    border-radius: 1.5rem;
+}
+.Watermelon_Smoothie{
+    background-image: url(./images/cold-watermelon-smoothie-dark-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 30vh;
+    width: 30%;
+    border-radius: 1.5rem;
+}
+.Tropical-Fruit_Smoothie{
+    background-image: url(./images/pexels-trang-doan-1092730.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 30vh;
+    width: 30%;
+    border-radius: 1.5rem;
+}
+.Mixed-Berry_Smoothie{
+    background-image: url(./images/pexels-suzy-hazelwood-2291070.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 30vh;
+    width: 30%;
+    border-radius: 1.5rem;
+}
+.Multi-Combo_Smoothie{
+    background-image: url(./images/pexels-taryn-elliott-4099238.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 30vh;
+    width: 30%;
+    border-radius: 1.5rem;
+}
