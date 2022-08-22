@@ -224,6 +224,12 @@ h2:hover {
     letter-spacing: 2.5px;
     font-weight: 800;
 } 
+.copyright{
+    color: white;
+    padding-right:1rem ;
+    padding-top: 3rem;
+    text-align: center;
+}
 
 .top:hover{
     font-family: 'Montserrat', sans-serif;
